@@ -1,0 +1,51 @@
+@import "normalize.css";
+@import "./variables.scss";
+
+.main {
+  font-family: "Roboto", sans-serif;
+}
+.collumn-section {
+  height: 100vh;
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+  }
+}
+.collumn {
+  &__title {
+    padding: 10px;
+    color: white;
+    transition: all 1s ease;
+  }
+
+  &__title:hover {
+    background: rgb(17, 1, 168);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 1s ease;
+  }
+
+  &__btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    transition: all 1s ease;
+  }
+
+  &__btn:hover {
+    background: rgb(17, 1, 168);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 1s ease;
+  }
+}
+.fa {
+}
+.fa-lock {
+}
